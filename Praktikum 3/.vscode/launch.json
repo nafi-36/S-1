@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch nextDays2",
+            "request": "launch",
+            "mainClass": "nextDays2",
+            "projectName": "Praktikum 3_bb5afde7"
+        },
+        {
+            "type": "java",
+            "name": "Launch prevDaysLoop",
+            "request": "launch",
+            "mainClass": "prevDaysLoop",
+            "projectName": "Praktikum 3_bb5afde7"
+        },
+        {
+            "type": "java",
+            "name": "Launch nextDaysLoop",
+            "request": "launch",
+            "mainClass": "nextDaysLoop",
+            "projectName": "Praktikum 3_bb5afde7"
+        },
+        {
+            "type": "java",
+            "name": "Launch nextDays",
+            "request": "launch",
+            "mainClass": "nextDays",
+            "projectName": "Praktikum 3_bb5afde7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch tanggalLusa",
+            "request": "launch",
+            "mainClass": "tanggalLusa",
+            "projectName": "Praktikum 3_bb5afde7"
+        },
+        {
+            "type": "java",
+            "name": "Launch hariLusa",
+            "request": "launch",
+            "mainClass": "hariLusa",
+            "projectName": "Praktikum 3_bb5afde7"
+        }
+    ]
+}

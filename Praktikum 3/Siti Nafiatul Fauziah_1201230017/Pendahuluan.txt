@@ -1,0 +1,56 @@
+PERTANYAAN PENDAHULUAN
+
+1. Sebutkan operator relasional yang terdapat dalam Java
+
+   == : Membandingkan apakah dua nilai operand sama
+        TRUE jika sama, FALSE jika tidak sama
+   != : Membandingkan apakah dua nilai operand tidak sama
+        TRUE jika tidak sama, FALSE jika sama
+   > : Membandingkan apakah nilai operand di kiri lebih besar dari operand di kanan
+       Jika jawabannya adalah benar, maka menghasilkan TRUE
+   < : Membandingkan apakah nilai operand di kiri lebih kecil dari operand di kanan
+       Jika jawabannya adalah ya, maka menghasilkan TRUE
+   >= : Membandingkan apakah nilai operand di kiri sama atau lebih besar dari operand di kanan
+        Jika jawabannya adalah ya, maka menghasilkan TRUE
+   <= : Membandingkan apakah nilai operand di kiri sama atau lebih kecil dari operand di kanan
+        Jika jawabannya adalah ya, maka menghasilkan TRUE
+
+
+2. Tentukan tipe data operator dan keluaran yang dimungkinkan untuk digunakan dalam pada operator relasional
+   
+   # Tipe data operator 
+     Angka (numerik) : Operator relasional dapat digunakan dengan tipe data numerik seperti int, float, dll.
+     Karakter (char) : Operator relasional dapat digunakan dengan tipe data karakter (char)
+     Objek : Operator relasional dapat digunakan untuk membandingkan objek
+   # Tipe data keluaran 
+     operator relasional membandingkan 2 nilai, dengan nilai antara TRUE atau FALSE, sehingga tipe datanya adalah boolean 
+
+
+3. Buatlah sebuah aplikasi [dengan menggunakan pseudocode, pascal atau java] yang dapat 
+   digunakan untuk menentukan apakah sebuah bilangan yang diinputkan oleh pengguna 
+   merupakan bilangan genap atau ganjil. Dapatkan nilai tambahan jika menggunakan method 
+   dengan pengembalian nilai untuk proses penentuan jenis nilai tersebut. 
+
+   public class GanjilGenap {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan bilangan: ");
+        int bilangan = input.nextInt();
+        
+        boolean isGenap = isGenap(bilangan);
+
+        if (isGenap) {
+            System.out.println(bilangan + " adalah bilangan genap.");
+        } else {
+            System.out.println(bilangan + " adalah bilangan ganjil.");
+        }
+    }
+
+    public static boolean isGenap(int bilangan) {
+        if (bilangan % 2 == 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+}

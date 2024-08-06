@@ -1,0 +1,44 @@
+===== LELANG =====
+
+arraylist barang (no, nama barang, harga awal, status)
+arraylist pembeli (nama, no)
+arraylist penawaran (penawaran)
+MENU: 
+1. login (admin, pembeli)
+	cek admin atau pembeli
+2. input barang (admin)
+   	add barang to arrbar
+3. list daftar barang (admin, pembeli)
+	view all data of arrbar
+4. input pembeli (admin)
+	add barang to arrpem
+5. list pembeli (admin)
+	view all data of arrpem
+6. proses lelang (pembeli)
+	input penawaran - add id pembeli, jml penawaran
+	lelang selesai, status barang = false
+7. view pemenang (admin, pembeli)
+	cek max penawaran of arrpen
+	tampilkan pemenang dan tawaran
+8. pilih barang lelang (admin)
+	admin memilih barang yang akan dilelang
+9. quit
+
+
+===== RESTAURANT =====
+
+arraylist pelanggang (nama, no. hp, alamat-opsional)
+arraylist meja (no, status, kapasitas-max)
+arraylist menu (nama, harga)
+
+
+===== PERPUSTAKAAN =====
+
+arraylist peminjam (nama, nim/s)
+arraylist buku (judul, stok)
+
+
+===== LAUNDRY =====
+
+arraylist pelanggan (nama, no.hp, alamat)
+arraylist laundry (jenis, harga)

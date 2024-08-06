@@ -1,0 +1,56 @@
+1. Apakah yang dimaksud dengan :
+   a. Parameter formal
+   b. Parameter aktual
+   Berikan contoh minimal 3 implementasi dari kedua jenis parameter diatas
+
+   JAWAB:
+
+   a) Parameter formal = Parameter yang dimasukkan saat deklarsi method
+   Contoh: 
+   1.
+   public static int untung(int jual, int beli) {
+       return jual - beli;
+   }
+   2. 
+   public static int hitungBagi(int abc, int def) {
+       return abc / def;
+   }
+   3. 
+   void printData(String nama, String nim) {
+       System.out.println("NAMA : " + nama);
+       System.out.println("NIM : " + nim);
+   }
+
+   b) Parameter aktual = Parameter yang dimasukkan saat memanggil method
+   Contoh: 
+   1. 
+   int keuntungan = Toko.untung(10000, 8000);
+   2. 
+   int result = hitungBagi(10, 2);
+   3. 
+   String data = printData(Erl, 1201230010);
+
+
+2. Buatlah sebuah aplikasi yang dapat digunakan untuk menghitung rumus fungsi berikut ini
+   Nilai F(x, y) untuk F(x, y) = xy +2x + 2y + 6
+   Gunakan Method untuk perhitungan fungsi diatas
+
+   JAWAB: 
+   
+    import java.util.Scanner;
+
+    public class Calculator {
+        public static void main(String[] args) {
+            Scanner input = new Scanner(System.in);
+            System.out.print("Masukkan nilai x: ");
+            int x = input.nextInt();
+            System.out.print("Masukkan nilai y: ");
+            int y = input.nextInt();
+            int hasil = hitung(x, y);
+            System.out.println("Hasil perhitungan: " + hasil);
+        }
+
+        public static int hitung(int x, int y) {
+            return x*y + 2*x + 2*y + 6;
+        }
+    }
